@@ -7,14 +7,16 @@ export default function UpdateForm() {
 
   return (
     <div>
-      <h2>Update note</h2>
+      <h2 className="notesh1">Update note</h2>
       <form onSubmit={store.updateNote}>
         <input
+          className="input"
           onChange={store.handleUpdateFieldChange}
           value={store.updateForm.title}
           name="title"
         />
         <textarea
+          className="input"
           onChange={store.handleUpdateFieldChange}
           value={store.updateForm.body}
           name="body"

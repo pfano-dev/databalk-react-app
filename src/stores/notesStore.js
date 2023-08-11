@@ -17,7 +17,7 @@ const notesStore = create((set) => ({
 
   fetchNotes: async () => {
     // Fetch the notes
-    const res = await axios.get("http://localhost:3000/notes");
+    const res = await axios.get("/notes");
 
     // Set to state
     set({ notes: res.data.notes });

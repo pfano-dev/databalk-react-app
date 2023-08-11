@@ -7,14 +7,16 @@ export default function CreateForm() {
 
   return (
     <div>
-      <h2>Create note</h2>
+      <h2 className="notesh1">Create note</h2>
       <form onSubmit={store.createNote}>
         <input
+          className="input"
           onChange={store.updateCreateFormField}
           value={store.createForm.title}
           name="title"
         />
         <textarea
+          className="input"
           onChange={store.updateCreateFormField}
           value={store.createForm.body}
           name="body"

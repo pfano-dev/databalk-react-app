@@ -1,0 +1,159 @@
+html {
+  box-sizing: border-box;
+}
+*,
+* {
+  box-sizing: inherit;
+}
+
+body {
+  color: #333;
+  box-sizing: border-box;
+}
+
+.main {
+  padding: 10px;
+  max-width: 700px;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+.App-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  align-items: center;
+}
+
+.App-header a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #888;
+}
+
+.App-header li {
+  list-style-type: none;
+}
+header ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+header .logo {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #888;
+}
+
+.userauth {
+  display: flex;
+
+  gap: 15px;
+}
+
+main .post {
+  display: grid;
+  grid-template-columns: 0.8fr 1fr;
+  gap: 1.2rem;
+  margin-top: 1rem;
+}
+.post .texts h2 {
+  margin: 0;
+}
+.post .texts p {
+  color: black;
+}
+.post .texts .author {
+  color: #888;
+  font-size: 0.7rem;
+  margin: 0;
+}
+.post .texts .author-name {
+  color: #333;
+  font-weight: 700;
+}
+
+form {
+  width: 80%;
+  margin: 0 auto;
+}
+
+form h1 {
+  text-align: center;
+}
+
+form .input {
+  display: block;
+  width: 100%;
+  margin: 1rem 0;
+  border: 1.5px #eee solid;
+  background-color: #fff;
+  padding: 0.7rem;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  outline-color: #52a5d8;
+}
+
+form button {
+  display: block;
+  width: 100%;
+  margin: 1rem 0;
+  border: none;
+  background-color: #333;
+  color: #fff;
+  padding: 0.7rem;
+  font-size: 1.2rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555555;
+}
+
+.notes {
+  display: block;
+  width: 100%;
+  margin: 1rem 0;
+  border: none;
+  border: 1px solid #76a6f9;
+  color: #333;
+  padding: 0.1em 0.7rem;
+  font-size: 1.2rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  text-align: center;
+}
+.notes h3 {
+  display: block;
+  width: 100%;
+  margin: 1rem 0;
+  border: none;
+  padding: 0.1em 0.7rem;
+  font-size: 1.2rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+.btn button {
+  display: inline;
+  width: 8rem;
+  margin: 1rem;
+  border: none;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  border-radius: 0.2rem;
+  cursor: pointer;
+}
+.btn .dlt {
+  background-color: #d64949;
+  color: #eee;
+}
+.btn .upt {
+  background-color: #498fd6;
+  color: #eee;
+}
+
+.notesh1 {
+  text-align: center;
+}

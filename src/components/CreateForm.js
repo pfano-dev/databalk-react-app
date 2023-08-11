@@ -14,12 +14,14 @@ export default function CreateForm() {
           onChange={store.updateCreateFormField}
           value={store.createForm.title}
           name="title"
+          placeholder="enter title"
         />
         <textarea
           className="input"
           onChange={store.updateCreateFormField}
           value={store.createForm.body}
           name="body"
+          placeholder="Add Note"
         />
         <button type="submit">Create note</button>
       </form>
